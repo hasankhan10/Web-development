@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card1</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            background-color: #FBAB7E;
+            background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+        }
+        .cardbox{
+            width: 60%;
+            height: 60%;
+            background-color: white;
+            display: flex;
+        }
+        #leftbox{
+            height: 100%;
+            width: 50%;
+            color: white;
+            font-weight: bold;
+            background: rgb(61,2,105);
+            background: linear-gradient(159deg, rgba(61,2,105,1) 23%, rgba(214,197,179,1) 91%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            
+
+        }
+        #rightbox img{
+            height: 100%;
+            width: 100%;
+        }
+        #rightbox{
+            height: 100%;
+            width: 50%;
+        }
+        .heading{
+            height: 30%;
+            width: 90%;
+            padding-top: 20px;
+        }
+        .info{
+            height: 30%;
+            width: 90%;
+            margin-top: -20px;
+        }
+        .analyse{
+            height: 30%;
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        #comment{
+            width: 20%;
+            height: 100%;
+        }
+        #paid{
+            width: 20%;
+            height: 100%;
+        }
+        #views{
+            width: 20%;
+            height: 100%;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="cardbox">
+
+            <div id="leftbox">
+                <div class="heading">
+                    <h1>Get insights that help your business grow</h1>
+                </div>
+                <div class="info">
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam repellendus saepe ullam consectetur provident optio temporibus ducimus, laudantium repudiandae nisi assumenda tempora voluptates culpa aspernatur impedit doloribus rem deleniti dolores?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque reiciendis eligendi libero nobis dignissimos, quibusdam voluptas veritatis dolorum modi sapiente.</p>
+                </div>
+                <div class="analyse">
+                    <div id="comment">
+                        <h1>10K</h1>
+                        <span>Comments</span>
+                    </div>
+                    <div id="paid">
+                        <h1>214</h1>
+                        <span>Paid user</span>
+                    </div>
+                    <div id="views">
+                        <h1>12M+</h1>
+                        <span>Views</span>
+                    </div>
+                </div>
+            </div>
+            <div id="rightbox">
+                <img src="digital.jpg" alt="">
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
